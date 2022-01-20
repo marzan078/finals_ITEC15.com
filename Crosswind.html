@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crosswind Tagaytay</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+/* Header/logo Title */
+.header {
+  padding: 200px;
+  width: auto;
+  background-image: url(Cross.jpg);
+  background-size: cover;
+  background-repeat:round;
+}
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:salmon;padding: 1px">
+  <h4 style="text-align:center;font-size: 25px; font-family: 'Times New Roman', Times, serif;">Welcome to Crosswind Tagaytay</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1></h1>
+  <p></p>
+</div>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="Explore.html">Go back</a>
+  <a href="https://crosswindsresortsuites.com/contact-us/">Contact Us</a>
+  <a href="https://www.facebook.com/crosswindstagaytayforsale/?ref=page_internal">Like and Follow</a>
+  <a href="https://crosswindsresortsuites.com/">Visit our official website</a>
+</div>
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <p style="font-style: italic; color: tomato;">Crosswinds is a haven south of Manila inspired by the architecture of Switzerland. Rowsof</p>
+    <div><img src="Crosswind3.jpg" alt="" style="height:300px;width: 100%;"></div><br>
+    <h2>Establishments</h2>
+    <p style="font-style: italic; color: tomato;">Feel at home to us, enjoy our stress relieve establishments. </p>
+    <div> <img src="Crosswind2.jpg" alt=""style="height:300px;width: 100%;"></div><br>
+    <div> <img src="CrossX.jpg" alt=""style="height:300px;width: 100%;"></div><br>
+    <div> <img src="CrossXX.jpg" alt=""style="height:300px;width: 100%;"></div><br>
+  </div>
+  <div class="main">
+    <h2>EXPLORE OUR SWITZERLAND ROWSOF INSPIRED ARCHITECHTURES</h2>
+    <p style="font-weight: bold;">Swiss Houses also know as "Chalet"</p>
+    <div> <img src="Crosswind5.jpg" alt=""style="height:500px;width: 100%;"></div><br>
+    <p style="font-style: italic; color: tomato;">Chalet, timber house characteristic of Switzerland, the Bavarian Alps, Tirol, and the French Alps. The name originally referred to a sheepherder’s dwelling and, later, to any small house in the mountains. The chalet is distinguished above all by the frank and interesting manner in which its principal material, wood, is used. The timber is generally cut into heavy planks, from 3 to 6 inches (7.5 to 15 centimetres) thick, and carefully framed together somewhat in the manner of a log house. Sidewalls, generally low, often extend beyond the ends, forming porches, or loggias. Upper floors almost universally project over the stories below and are decorated with interesting and varied types of brackets. Balconies across the front are common and are frequently embellished with carved railings.</p>
+    <br>
+    <h2>ENJOY EVEN AT NIGHT</h2>
+    <div> <img src="Crosswind4.jpg" alt=""style="height:500px;width: 100%;"></div><br>
+    <p style="font-style: italic; color: tomato;">Enjoy your visit to our resort, come on in and let us take care of your stress. Life is short so make it memorable every moment.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Thank you, come again!</h2>
+</div>
+
+</body>
+</html>
